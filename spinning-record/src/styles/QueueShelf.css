@@ -1,0 +1,13 @@
+.queue-shelf {
+    position: absolute;
+    left: 320px;
+    top: 0;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    display: none;
+}
+
+.record:hover+.queue-shelf {
+    display: block;
+}
